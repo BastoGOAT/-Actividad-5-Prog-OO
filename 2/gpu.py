@@ -38,8 +38,8 @@ def verificarEdad():
                 label2=Etiqueta(caja,Vendedor.nombre,10,30)
                 label3=Etiqueta(caja,'Apellidos del vendedor:',10,50)
                 label4=Etiqueta(caja,Vendedor.apellidos,10,70)
-                label4=Etiqueta(caja,'Edad del vendedor',10,90)
-                label4=Etiqueta(caja,Vendedor.edad,10,110)
+                label5=Etiqueta(caja,'Edad del vendedor',10,90)
+                label6=Etiqueta(caja,Vendedor.edad,10,110)
                 caja.mainloop()
 
             else:
